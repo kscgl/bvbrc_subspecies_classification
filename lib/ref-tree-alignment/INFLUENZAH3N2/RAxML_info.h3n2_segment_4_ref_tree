@@ -1,0 +1,107 @@
+
+
+IMPORTANT WARNING: Sequences c and d are exactly identical
+
+
+IMPORTANT WARNING: Sequences c and e are exactly identical
+
+
+IMPORTANT WARNING: Sequences c and f are exactly identical
+
+
+IMPORTANT WARNING: Sequences 10 and 11 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 5d and 5e are exactly identical
+
+
+IMPORTANT WARNING: Sequences 70 and 71 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 8a and 8b are exactly identical
+
+
+IMPORTANT WARNING: Sequences 92 and 93 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9e and 9f are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9e and a0 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9e and a1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences a8 and a9 are exactly identical
+
+
+IMPORTANT WARNING: Sequences eb and ec are exactly identical
+
+IMPORTANT WARNING
+Found 13 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file h3n2_segment_4_ref_aln.reduced
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 1169 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.21%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1169
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/zma/JCVI/RAxML-7.2.6/raxmlHPC -m GTRGAMMA -s h3n2_segment_4_ref_aln -n h3n2_segment_4_ref_tree 
+
+
+Inference[0]: Time 422.669057 GAMMA-based likelihood -25097.662596, best rearrangement setting 25
+alpha[0]: 0.461250 rates[0] ac ag at cg ct gt: 1.360354 7.297720 0.663424 0.159466 8.287961 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -25092.733381 tree written to file /home/zma/JCVI/SUBSPECIES/H3N2/for_ppplacer/RAxML_result.h3n2_segment_4_ref_tree
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -25092.733381 .... 
+
+Final GAMMA-based Score of best tree -25092.730616
+
+Program execution info written to /home/zma/JCVI/SUBSPECIES/H3N2/for_ppplacer/RAxML_info.h3n2_segment_4_ref_tree
+Best-scoring ML tree written to: /home/zma/JCVI/SUBSPECIES/H3N2/for_ppplacer/RAxML_bestTree.h3n2_segment_4_ref_tree
+
+Overall execution time: 576.599618 secs or 0.160167 hours or 0.006674 days
+
