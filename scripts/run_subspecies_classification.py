@@ -287,7 +287,7 @@ class SubspeciesClassification:
         cladinator_output = self.output_dir / CLADINATOR_OUTPUT_F_NAME
         cladinator_cmd = ["cladinator3", str(guppy_output), str(cladinator_output)]
 
-        is_ortho = self.virus_type in ["INFLUENZAH5", "SWINEH1", "SWINEH3", "SWINEH1US"]
+        is_ortho = self.virus_type in ["INFLUENZAH3N2", "INFLUENZAH5", "SWINEH1", "SWINEH3", "SWINEH1US"]
         is_adeno = self.virus_type in ["MASTADENOA", "MASTADENOB", "MASTADENOC", "MASTADENOE", "MASTADENOF"]
         is_paramyxo = self.virus_type in ["MEASLES", "MUMPS"]
         is_pox = (self.virus_type == "MPOX")
@@ -303,7 +303,7 @@ class SubspeciesClassification:
 
         if is_ortho or is_adeno or is_paramyxo or is_pox:
             cladinator_cmd.insert(1, f"-m={str(mapping_file)}")
-        if is_adeno or is_paramyxo:
+        if is_adeno or is_paramyxo or self.virus_type == "INFLUENZAH3N2":
             cladinator_cmd.insert(1, "-x")
 
         try:
